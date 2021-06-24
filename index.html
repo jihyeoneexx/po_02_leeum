@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/1f6103c129.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/scroll.js" defer></script>
+        <script src="js/tab_menu.js" defer></script>
+        <!-- defer attribute: 익스플로러는 html 파일을 읽는 도중 스크립트 다운로드 및 실행이 끝나기 전까지 아래 내용을 송출하지 않음 
+        이를 방지하기 위한 방식 중 하나(다른 하나는 스크립트 링크를 html 최하단에 놓는 것!)
+        브라우저는 defer 속성이 있는 스크립트를 '백그라운드'에서 다운로드 하기 때문에 html 송출을 멈추지 않고,
+        html 페이지 구성이 끝날 때까지 스크립트 실행을 지연한다.  
+        지연 스크립트는 html 추가된 순서대로 실행된다. 작은 스크립트가 먼저 다운로드 되어도
+        캐스케이딩 상 뒤에 위치한다면 후에 실행됨! defer 속성은 외부 스크립트에만 유효하기 때문에
+        src 속성이 없는 경우 동작하지 않음-->
+    </head>
+    <body>
+        <nav id="navbar-container">
+            <a href="index.html"><img src="images/logo_w.png" id="logo"></a>
+            <a href="##" class="navbar-toggleBtn"><i class="fas fa-bars"></i></a>
+            <ul class="main_menu">
+                <a href="#"><li>전시정보</li></a>
+                <a href="#"><li>프로그램</li></a>
+                <a href="#"><li>소장품안내</li></a>
+                <a href="#"><li>방문안내</li></a>
+                <a href="#"><li>리움소개</li></a>
+            </ul>
+            <ul class="login_menu">
+                <a href="#"><li>LOGIN</li></a>
+                <a href="#"><li>JOIN</li></a>
+                <a href="#"><li>ENG</li></a>
+            </ul>
+            <div class="navbar-dropdown">
+                <div class="dropdown-contents"><a href="#">menu</a></div>
+            </div>
+
+        </nav>
+        <main>
+            <h1 class="txt-main-title">피빌로티 리스트:<br>하늘로 오르다</h1>
+            <h2> Pibilottii Rist: Spear to Heaven<br>2020.07.19 - 2020.09.16</h2>
+        </main>
+        <section class="now-exhibit">
+            <h1 class="txt-title">진행중 전시</h1>
+            <img src="images/pic-ex1.png" id="now-eh-pic">
+            <div>
+                <h1 class="now-txt txt-title">올라퍼 엘리아슨,<br>세상의 모든 가능성</h1>
+                <h5 class="now-txt txt-caption">Olafur Eliasson, The parliament of possibilities</h5>
+                <h2 class="now-txt txt-sub-title">2016.09.28 ~ 2017.02.26</h2>
+                <h2 class="now-txt txt-sub-title">MUSEUM 1</h2>
+                <p class="txt-body">덴마크 출신의 올라퍼 엘리아슨(b. 1967)은 시각미술에 기반하여 다양한 실험적 
+                    시도들을 거듭하면서 자연, 철학, 과학, 건축 등으로 관심의 영역을 확장하고 있는 세계적인 작가입니다. 
+                    주로 움직임이나 빛, 거울을 이용한 착시효과, 기계로 만들어진 유사 자연 현상, 빛과 색채를 이용한 
+                    시각 실험과 같은 비물질적 요소로 이루어지는 그의 작품들은 그것이 놓이는 장소를 전혀 다른 공간으로 
+                    변화시키며 ...</p>
+                <h2 class="now-txt txt-sub-title"><a href="#">자세히보기</a></h2>   
+            </div> 
+        </section>
+
+        <div class="banner-next">
+            <img id="banner-pic" src="images/pic-ex2.png" alt="next-eh">
+            <h2 class="banner-txt txt-sub-title">NEXT</h2>
+            <h2 class="banner-txt txt-sub-title">분청사기, 무늬에 깃든 마음</h2>
+            <h5 class="banner-txt txt-caption">Buncheong: Traces of the Mind</h5>
+            <h2 class="banner-txt txt-sub-title">20.08.09-20.02.12</h2>
+        </div>
+        <section class="program-info">
+            <h1 class="txt-title">프로그램 안내</h1>
+           <div class="clear1"><img id="pro1" src="images/pic-pro1.png">
+            <h1 class="txt-title">[리움 키즈]<br>2020 겨울반 모집</h1>
+            <h2 class="txt-sub-title">2020. 01. 14 - 01. 17</h2>
+            <p class="txt-body">리움 키즈는 어린이를 위한 미술감상 교육 프로그램으로 작품 감상과 다양한 연계활동을 
+                통해 생각의 유연성과 열린 감성을 기르는데 초점을 두고 있습니다. 미술은 어떤 정해진 정답이 있는 것이 
+                아니라, 미술언어를 이해하는 과정입니다. 리움 키즈는 어린이들이 이런 미술언어를 자연스럽게 접하고 
+                체득할 수 있도록 구성되었습니다. 이번 리움 키즈는 주어진 주제를 중심으로 상설 전시의 한국 고미술작품과 
+                현대미술작품을 연결하여 살펴봅니다.</p>
+            </div> 
+            <div class="clear2">
+                <img id="pro2" src="images/pic-pro2.png">
+               <div class="pro2-txt"> <h1 class="txt-title">어떤 감상:<br>안무가 이양희 워크숍</h1>
+                <h2 class="txt-sub-title">2019. 10. 01 - 10. 04</h2>
+                <p class="txt-body"><어떤 감상 : 안무가 이양희 워크숍>은 미술관에서 마주하게 되는 예술적 순간들을 
+                    온전히 신체로 감각함과 동시에 움직임으로 그 감각을 매개하며 공유해 보는 청년 대상의 워크숍입니다.<br>
+                    이양희 안무가가 한국무용의 움직임 원형을 바탕으로 개발한 '퓨어 모션' 개념과 공연예술의 '뷰 포인트'
+                     훈련을 기반으로 공간과 시간에 대해 생각해보고, 미술관에 전시된 작품과 나, 미술관 공간과 신체의 관계를 
+                     몸, 호흡, 명상으로 탐구해봅니다. </p></div>
+            </div> 
+        </section>
+
+        <section class="collection-info clear">
+          
+            <h1 class="txt-title">소장품 안내</h1>
+            
+            <div class="main-tab-button clear">
+               <!-- <input type="button" id="btn-01" value="고미술" name="main-button">
+                <input type="button" id="btn-02" value="현대미술" name="main-button" >
+                -->
+                <button id="btn1" value="btn-on">고미술</button>
+                <button id="btn2" value="btn-off">현대미술</button>
+            </div>
+
+            <div class="main-tab-container">
+                    <div class="main-tab-content conAt"> 
+                        <ul class="collection-check">
+                            <li><input id="1-01" type="checkbox" value="in" checked><label for="1-01">도자기</label></li>
+                            <li><input id="1-02" type="checkbox" value="abroad"><label for="1-02">서화</label></li>
+                            <li><input id="1-03" type="checkbox" value="pic"><label for="1-03">회화</label></li>
+                            <li><input id="1-04" type="checkbox" value="sculpt"><label for="1-04">불교미술</label></li>
+                            <li><input id="1-05" type="checkbox" value="photo"><label for="1-05">금속/목공예</label></li>
+                        </ul>
+                        <div class="slide-collection">
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-5.png">
+                                    <h2 class="txt-sub-title">배모양 토기</h2>
+                                    <h5 class="txt-caption">가야,4-5세기<br>점토<br>보물 555호</h5>
+                                </a>               
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-6.png">
+                                    <h2 class="txt-sub-title">청자진사 연화문 표형주자</h2>
+                                    <h5 class="txt-caption">고려, 13세기<br>점토<br>국보 133호</h5>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-7.png">
+                                    <h2 class="txt-sub-title">집모양 토기</h2>
+                                    <h5 class="txt-caption">가야, 4-5세기<br>점토</h5>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-8.png">
+                                    <h2 class="txt-sub-title">청자투각 모란문 합</h2>
+                                    <h5 class="txt-caption">고려, 12세기<br>점토</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="main-tab-content conMd">
+                        <ul class="collection-check">
+                            <li><input id="01" type="checkbox" value="in" checked><label for="01">국내</label></li>
+                            <li><input id="02" type="checkbox" value="abroad"><label for="02">해외</label></li>
+                            <li><input id="03" type="checkbox" value="pic"><label for="03">회화</label></li>
+                            <li><input id="04" type="checkbox" value="sculpt"><label for="04">조각/설치</label></li>
+                            <li><input id="05" type="checkbox" value="photo"><label for="05">사진/영상</label></li>
+                        </ul>
+                        <div class="slide-collection">
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-1.png">
+                                    <h2 class="txt-sub-title">녹음방초</h2>
+                                    <h5 class="txt-caption">김종혁,1998<br>캔버스에 유채</h5>
+                                </a>               
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-2.png">
+                                    <h2 class="txt-sub-title">고뇌를 위한 습작</h2>
+                                    <h5 class="txt-caption">아쉴 고르키, 1947<br>캔버스에 유채</h5>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-3.png">
+                                    <h2 class="txt-sub-title">작품 86, M.K</h2>
+                                    <h5 class="txt-caption">곽인식, 1986<br>캔버스, 종이에 채색</h5>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img id="pic-collection" src="images/art-4.png">
+                                    <h2 class="txt-sub-title">물방울</h2>
+                                    <h5 class="txt-caption">김창열, 1981<br>캔버스에 유채와 먹</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <h3 class="txt-guide">자세히보기<i class="fas fa-arrow-circle-right"></i></h3>
+        </section>
+        <h1 class="info-title txt-title">관람안내</h1>
+        <section class="information">
+            <div class="info-left">
+            <div class="info-visit"><h3 class="txt-guide">방문안내</h3>
+                <h5 class="txt-caption" id="strong">관람시간</h5><h5 class="txt-caption">10:30 ~ 18:00 (매표마감 17:30)</h5></br>
+                <h5 class="txt-caption" id="strong">휴관일</h5><h5 class="txt-caption">매주 월요일, 매년 1월 1일, 설 연휴, 추석 연휴</h5></br>
+                <h5 class="txt-caption" id="strong">단체관람</h5><h5 class="txt-caption">20명 이상 단체는 예약 후 관람(평일에 한하여 할인 적용)</h5></br>
+                <h5 class="txt-caption" id="strong">관람요금</h5><h5 class="txt-caption">일반 10,000원 / 할인 5,000원 / 디지털 가이드 1,000원</h5>
+            </div>
+                <div class="info-load">
+                    <h3 class="txt-guide">오시는 길</h3>
+                    <p class="txt-body">
+                        서울특별시 용산구 이태원로55길 60-16 04348
+                        <br>(한남동, 삼성미술관 Leeum)
+                        <br>Tel: 02-2014-6901</p>
+                </div>
+            </div>
+
+            <div class="info-notice">
+                <h3 class="txt-guide">공지사항</h3>
+                <h5 class="txt-caption">올라퍼 엘리아슨 <세상의 모든 가능성> 전시연계 프로그램</h5>
+                <h5 class="txt-caption">3인3색 린즈 갤러리 토크-올라퍼 앨리아슨</h5>
+                <h5 class="txt-caption">전시 연계 퍼포먼스 - 국립발레단</h5>
+                <h5 class="txt-caption">문화가 있는 날! 리움으로 오세요-워크숍 안내</h5>
+                <h5 class="txt-caption">[취소]전시연계 캐롤라인 존스 강연</h5>
+                <h5 class="txt-caption">[인터미디어 극장] 소리로 짓는 환경</h5>
+                <h5 class="txt-caption">전시 연계 강연2. 아사코 이와마, 안나 엔베르</h5>
+                <h5 class="txt-caption">전시연계 퍼포먼스2 케이 파트루</h5>
+            </div>
+        </section>
+        <footer>
+            <div class="flex-box">
+            <div class="footer-option">
+                <select name="language" required> 
+                    <!--select menu에서 placeholder 옵션을 사용하는 법
+                    required 속성을 부여한 다음, 첫번째 option을 hidden으로-->
+                    <option value="" hidden>FAMILY SITE</option>
+                    <option value="eng">English</option>
+                    <option value="kor">Korea</option>
+                    <option value="jp">Japanese</option>
+                    <option value="ch">Chinese</option>
+                </select>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <p class="txt-body">Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348
+            <br>Copyright Leeum 2011, All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
