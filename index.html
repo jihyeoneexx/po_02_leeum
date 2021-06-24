@@ -9,13 +9,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="js/scroll.js" defer></script>
         <script src="js/tab_menu.js" defer></script>
-        <!-- defer attribute: 익스플로러는 html 파일을 읽는 도중 스크립트 다운로드 및 실행이 끝나기 전까지 아래 내용을 송출하지 않음 
-        이를 방지하기 위한 방식 중 하나(다른 하나는 스크립트 링크를 html 최하단에 놓는 것!)
-        브라우저는 defer 속성이 있는 스크립트를 '백그라운드'에서 다운로드 하기 때문에 html 송출을 멈추지 않고,
-        html 페이지 구성이 끝날 때까지 스크립트 실행을 지연한다.  
-        지연 스크립트는 html 추가된 순서대로 실행된다. 작은 스크립트가 먼저 다운로드 되어도
-        캐스케이딩 상 뒤에 위치한다면 후에 실행됨! defer 속성은 외부 스크립트에만 유효하기 때문에
-        src 속성이 없는 경우 동작하지 않음-->
     </head>
     <body>
         <nav id="navbar-container">
@@ -94,9 +87,6 @@
             <h1 class="txt-title">소장품 안내</h1>
             
             <div class="main-tab-button clear">
-               <!-- <input type="button" id="btn-01" value="고미술" name="main-button">
-                <input type="button" id="btn-02" value="현대미술" name="main-button" >
-                -->
                 <button id="btn1" value="btn-on">고미술</button>
                 <button id="btn2" value="btn-off">현대미술</button>
             </div>
@@ -220,8 +210,6 @@
             <div class="flex-box">
             <div class="footer-option">
                 <select name="language" required> 
-                    <!--select menu에서 placeholder 옵션을 사용하는 법
-                    required 속성을 부여한 다음, 첫번째 option을 hidden으로-->
                     <option value="" hidden>FAMILY SITE</option>
                     <option value="eng">English</option>
                     <option value="kor">Korea</option>
