@@ -419,7 +419,9 @@ section.collection-info h1.txt-title{
     background-color:black;
     color:white;
 }
-
+.main-tab-button>button:focus{
+    outline:none;
+}
 div.main-tab-container>div{
     max-width:1320px;
     margin:0 auto;
