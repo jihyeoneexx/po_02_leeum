@@ -87,10 +87,10 @@ nav#navbar-container{
         display:none;
     }
 
-   /* nav div.navbar-dropdown {
+   nav div.navbar-dropdown {
         display: inline-block;
       }
-            nav div.dropdown-contents{
+/*            nav div.dropdown-contents{
                 display: none;
                 position: fixed;
                 left:0;
@@ -106,12 +106,12 @@ nav#navbar-container{
                     color: black;
                     font-weight: 600;
                 }
-
+*/
     nav#navbar-container:hover div.dropdown-contents{
             display:block;
             transition: all 0.4s;
         }
-*/
+
 
         @media screen and (max-width: 900px) {
             nav#navbar-container{
