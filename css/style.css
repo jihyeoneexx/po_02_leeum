@@ -105,11 +105,12 @@ nav#navbar-container{
                     color: black;
                     font-weight: 600;
                 }
+*/
     nav#navbar-container:hover div.dropdown-contents{
             display:block;
             transition: all 0.4s;
         }
-*/
+
 
         @media screen and (max-width: 900px) {
             nav#navbar-container{
