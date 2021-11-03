@@ -45,6 +45,7 @@ nav#navbar-container{
     width: 100%;
     z-index: 100;
     padding: 20px 100px;
+    transition: all 0.4s;
 }
     nav img#logo{
         display: inline-block;
@@ -105,12 +106,12 @@ nav#navbar-container{
                     color: black;
                     font-weight: 600;
                 }
-*/
+
     nav#navbar-container:hover div.dropdown-contents{
             display:block;
             transition: all 0.4s;
         }
-
+*/
 
         @media screen and (max-width: 900px) {
             nav#navbar-container{
