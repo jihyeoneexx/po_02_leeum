@@ -86,7 +86,7 @@ nav#navbar-container{
         display:none;
     }
 
-    nav div.navbar-dropdown {
+   /* nav div.navbar-dropdown {
         display: inline-block;
       }
             nav div.dropdown-contents{
@@ -109,6 +109,7 @@ nav#navbar-container{
             display:block;
             transition: all 0.4s;
         }
+*/
 
         @media screen and (max-width: 900px) {
             nav#navbar-container{
